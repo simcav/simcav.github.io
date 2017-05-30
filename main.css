@@ -1,5 +1,6 @@
 #mainheader {
-   background-image:url(header-pic.jpg) no-repeat;
+  background-image:url(header-pic.jpg) no-repeat;
+  width: 100%
 }
 
 #divheader { 

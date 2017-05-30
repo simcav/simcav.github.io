@@ -1,7 +1,6 @@
 #mainheader {
-  background-image:url(header-pic.jpg) no-repeat;
-  height: 436px; 
-  width: 100%;
+  background:black;
+  height: 430px;
   
   position: absolute;
   top: 0;
@@ -9,7 +8,15 @@
   right: 0;
 }
 
-#divheader { 
-
+#divheader {
+  background-image:url(header-pic.jpg) no-repeat;
   color: white;
+  
+  height: 430px; 
+  width: 1662px;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
 }

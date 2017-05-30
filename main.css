@@ -1,5 +1,6 @@
 #mainheader {
   background-image:url(header-pic.jpg) no-repeat;
+  height: 436px; 
   width: 100%;
   
   position: absolute;
@@ -9,6 +10,6 @@
 }
 
 #divheader { 
-  height: 436px; 
+
   color: white;
 }

@@ -1,6 +1,6 @@
 #mainheader {
   background-color: black;
-  height: 430px;
+  height: 290px;
   width: 100%;
   
   position: absolute;
@@ -21,10 +21,5 @@
 
 #divtitle {
   color: white;
-    
-  position: absolute;
-  top: 0;
-  left: 100;
-  right: 0;
   margin: auto;
 }

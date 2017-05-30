@@ -1,3 +1,8 @@
-.header {
+#mainheader {
    background-image:url(header-pic.jpg) no-repeat;
+}
+
+#divheader { 
+  height: 436px; 
+  color: white;
 }

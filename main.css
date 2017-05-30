@@ -11,12 +11,20 @@
 
 #divheader {
   background-image:url(header-pic.jpg);
-  color: white;
   
   height: 430px; 
   width: 1662px;
   
   position: absolute;
   top: 0;
+}
 
+#divtitle {
+  color: white;
+    
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }

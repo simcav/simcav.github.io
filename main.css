@@ -9,7 +9,7 @@
 }
 
 #divheader {
-  background-image:url(header-pic.jpg) no-repeat;
+  background-image:url(header-pic.jpg);
   color: white;
   
   height: 430px; 

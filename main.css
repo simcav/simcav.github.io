@@ -1,12 +1,12 @@
 #mainheader {
   background-color: black;
+  height: 430px;
   width: 100%;
   
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  margin: auto;
 }
 
 #divheader {
@@ -18,7 +18,5 @@
   
   position: absolute;
   top: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+
 }

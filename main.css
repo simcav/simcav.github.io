@@ -22,5 +22,8 @@
 
 #divtitle {
   color: white;
+  
+  position: absolute;
+  left: 100px;
   margin: auto;
 }

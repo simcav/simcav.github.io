@@ -11,9 +11,9 @@
 
 #divheader {
   background-image:url(header-pic.jpg);
+  background-repeat: no-repeat;
   
-  height: 430px; 
-  width: 1662px;
+  height: 430px;
   
   position: absolute;
   top: 0;
@@ -24,7 +24,7 @@
     
   position: absolute;
   top: 0;
-  left: 0;
+  left: 100;
   right: 0;
   margin: auto;
 }

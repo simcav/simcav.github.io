@@ -49,5 +49,5 @@ h1 {
   left: 0;
   background-color: red;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */    
+  padding-top: 60px; /* Place content 60px from the top */
 }

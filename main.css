@@ -15,7 +15,7 @@
   
   height: 204px;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   position: absolute;
   top: 0;
 }
@@ -47,7 +47,7 @@ h1 {
   bottom: 0;
   background-color: #0b0b0bff;
   padding: 214px 10px 10px 10px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .sidebutton {
@@ -79,6 +79,7 @@ color: #4CAF50;
 }
 
 #updated {
+  width: 100%;
   color: white;
   position: absolute;
   bottom: 20px;

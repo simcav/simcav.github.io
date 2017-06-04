@@ -32,5 +32,8 @@ h1 {
   font-weight: bold;
   color: white;
   font-size: 70px;
+  
+  margin: 0px;
+  padding: 0px;
 }
 

@@ -50,22 +50,20 @@ h1 {
   left: 0;
   background-color: #0b0b0bff;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: 5px; /* Place content 60px from the top */
 }
 
 .sidebutton {
 background-color: #4CAF50;
 border: 2px solid #4CAF50;
 padding: 15px 32px;
-width: 100%;
+width: 90%;
 color: white;
 text-align: centre;
 display: block;
 font-size: 20px;
 border-radius: 8px;
 margin: 5px 5px 5px 5px;
-position:absolute; 
-top:0;
 }
 
 .sidebutton:hover {

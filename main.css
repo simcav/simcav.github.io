@@ -43,7 +43,7 @@ h1 {
 
 #leftnav {
   height: 100%; /* 100% Full-height */
-  width: 300px;
+  width: 290px;
   border: none;
   position: absolute; /* Stay in place*/
   z-index: 1; /* Stay on top */
@@ -51,8 +51,7 @@ h1 {
   left: 0;
   background-color: #0b0b0bff;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 5px; /* Place content 5px from the top */
-  padding: 15px 15px 15px 15px;
+  padding: 5px 5px 5px 5px;
 }
 
 .sidebutton {
@@ -76,5 +75,5 @@ color: #4CAF50;
 #divbody{
 position: absolute;
 top: 246px;
-left: 301px;
+left: 300px;
 }

@@ -76,7 +76,7 @@ color: #4CAF50;
   position: absolute;
   top: 246px;
   left: 300px;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 
 

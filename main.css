@@ -59,9 +59,10 @@ padding: 15px 32px;
 width: 100%;
 color: white;
 text-align: centre;
-display: inline-block;
+display: block;
 font-size: 20px;
 border-radious: 8px;
+margin: 0;
 }
 
 .sidebutton:hover {

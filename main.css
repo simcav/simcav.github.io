@@ -40,7 +40,7 @@ h1 {
 
 #leftnav {
   height: 100%; /* 100% Full-height */
-  width: 230px;
+  width: 180px;
   border: none;
   position: fixed; /* Stay in place*/
   top: 204px;
@@ -73,7 +73,7 @@ color: #4CAF50;
   background-color: rgba(76,175,80,0.1);
   position: absolute;
   top: 204px;
-  left: 250px;
+  left: 200px;
   z-index: -1;
 }
 

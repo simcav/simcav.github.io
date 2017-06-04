@@ -61,8 +61,8 @@ color: white;
 text-align: centre;
 display: block;
 font-size: 20px;
-border-radious: 8px;
-margin: 0;
+border-radious: 12px;
+margin: 5px;
 }
 
 .sidebutton:hover {

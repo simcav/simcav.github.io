@@ -42,11 +42,11 @@ h1 {
   width: 180px;
   border: none;
   position: fixed; /* Stay in place*/
-  top: 0;
+  top: 204;
   left: 0;
   bottom: 0;
   background-color: #0b0b0bff;
-  padding: 214px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
   z-index: 1;
 }
 
@@ -82,7 +82,7 @@ color: #4CAF50;
   width: 100%;
   color: white;
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   font-size: 12pt;
   text-align: center;
 }

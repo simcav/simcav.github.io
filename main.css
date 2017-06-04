@@ -42,7 +42,7 @@ h1 {
   width: 180px;
   border: none;
   position: fixed; /* Stay in place*/
-  top: 204;
+  top: 204px;
   left: 0;
   bottom: 0;
   background-color: #0b0b0bff;
@@ -51,16 +51,16 @@ h1 {
 }
 
 .sidebutton {
-background-color: #4CAF50;
-border: 2px solid #4CAF50;
-padding: 15px 32px;
-width: 100%;
-color: white;
-display: block;
-font-size: 20px;
-border-radius: 8px;
-margin: 0;
-margin-bottom: 10px;
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+  padding: 15px 32px;
+  width: 100%;
+  color: white;
+  display: block;
+  font-size: 20px;
+  border-radius: 8px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .sidebutton:hover {

@@ -81,11 +81,13 @@ color: #4CAF50;
 
 
 #gpl-notice {
-  width: 100%;
   position: absolute;
+  left: 0;
+  right: 0;
   bottom: 0;
   z-index: 1; /* Stay on top */
   background-color: grey;
   color: white;
   font-size: 10pt;
+  text-align: center;
 }

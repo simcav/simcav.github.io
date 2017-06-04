@@ -1,6 +1,6 @@
 #mainheader {
   background-color: black;
-  height: 290px;
+  height: 246px;
   width: 100%;
   
   position: absolute;
@@ -13,7 +13,7 @@
   background-image:url(header-pic.jpg);
   background-repeat: no-repeat;
   
-  height: 290px;
+  height: 246px;
   width: 100%;
   
   position: absolute;

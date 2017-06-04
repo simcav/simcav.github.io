@@ -45,7 +45,7 @@ h1 {
   width: 400px;
   position: fixed; /* Stay in place*/
   z-index: 1; /* Stay on top */
-  top: 246;
+  top: 246px;
   left: 0;
   background-color: red;
   overflow-x: hidden; /* Disable horizontal scroll */

@@ -71,6 +71,8 @@ color: #4CAF50;
 
 #divbody {
   padding: 10px;
+  background-color: #4CAF50;
+  opacity: 0.3;
   position: absolute;
   top: 246px;
   left: 300px;

@@ -69,3 +69,10 @@ border-radius: 8px;
 background-color: white;
 color: #4CAF50;
 }
+
+
+#divbody{
+position: absolute;
+top: 246px;
+left: 300px;
+}

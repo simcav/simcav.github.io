@@ -3,7 +3,7 @@
   height: 246px;
   width: 100%;
   
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -21,9 +21,7 @@
 }
 
 #divtitle {
-  color: white;
-  
-  position: absolute;
+  position: fixed;
   left: 400px;
   bottom: 0;
 }

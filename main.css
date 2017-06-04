@@ -50,14 +50,14 @@ h1 {
   left: 0;
   background-color: #0b0b0bff;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 5px; /* Place content 60px from the top */
+  padding-top: 5px; /* Place content 5px from the top */
 }
 
 .sidebutton {
 background-color: #4CAF50;
 border: 2px solid #4CAF50;
-padding: 5px 5px;
-width: 100%;
+padding: 15px 32px;
+width: 95%;
 color: white;
 text-align: centre;
 display: block;

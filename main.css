@@ -43,10 +43,10 @@ h1 {
   width: 180px;
   border: none;
   position: fixed; /* Stay in place*/
-  top: 204px;
+  top: 0;
   left: 0;
   background-color: #0b0b0bff;
-  padding: 10px 10px 10px 10px;
+  padding: 214px 10px 10px 10px;
 }
 
 .sidebutton {

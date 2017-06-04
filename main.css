@@ -45,7 +45,7 @@ h1 {
   height: 100%; /* 100% Full-height */
   width: 280px;
   border: none;
-  position: absolute; /* Stay in place*/
+  position: fixed; /* Stay in place*/
   top: 246px;
   left: 0;
   background-color: #0b0b0bff;
@@ -81,7 +81,7 @@ color: #4CAF50;
 
 
 #gpl-notice {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;

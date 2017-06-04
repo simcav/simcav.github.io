@@ -29,6 +29,9 @@
   margin: auto;
 }
 
-h1 {    
-  font-size: 250%;
+h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
 }
+

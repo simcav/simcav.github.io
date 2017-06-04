@@ -21,7 +21,7 @@
 }
 
 #divtitle {
-  position: fixed;
+  position: absolute;
   left: 400px;
   bottom: 0;
 }

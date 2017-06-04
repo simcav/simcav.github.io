@@ -62,7 +62,9 @@ text-align: centre;
 display: block;
 font-size: 20px;
 border-radius: 8px;
-margin: 5px;
+margin: 5px 5px 5px 5px;
+position:absolute; 
+top:0;
 }
 
 .sidebutton:hover {

@@ -64,6 +64,7 @@ display: block;
 font-size: 20px;
 border-radius: 8px;
 margin: 0;
+margin-bottom: 10px;
 }
 
 .sidebutton:hover {

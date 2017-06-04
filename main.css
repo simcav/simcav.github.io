@@ -44,7 +44,7 @@ h1 {
 #leftnav {
   height: 100%; /* 100% Full-height */
   width: 300px;
-  position: fixed; /* Stay in place*/
+  position: absolute; /* Stay in place*/
   z-index: 1; /* Stay on top */
   top: 246px;
   left: 0;

@@ -70,6 +70,7 @@ color: #4CAF50;
 
 
 #divbody {
+  padding: 10px;
   height: 100%;
   position: absolute;
   top: 246px;

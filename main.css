@@ -47,7 +47,7 @@ h1 {
   bottom: 0;
   background-color: #0b0b0bff;
   padding: 214px 10px 10px 10px;
-  z-index: 0.5;
+  z-index: 0;
 }
 
 .sidebutton {
@@ -82,7 +82,7 @@ color: #4CAF50;
   color: white;
   position: absolute;
   bottom: 20px;
-  font-seize: 12pt;
+  font-size: 12pt;
   text-align: center;
 }
 

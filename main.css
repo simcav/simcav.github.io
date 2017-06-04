@@ -63,6 +63,7 @@ color: white;
 display: block;
 font-size: 20px;
 border-radius: 8px;
+margin: 0;
 }
 
 .sidebutton:hover {

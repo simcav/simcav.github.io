@@ -9,7 +9,6 @@
   right: 0;
 }
 
-
 #divheader {
   background-image:url(header-pic2.jpg);
   background-repeat: no-repeat;
@@ -21,13 +20,11 @@
   top: 0;
 }
 
-
 #divtitle {
   position: absolute;
   left: 200px;
   bottom: 0;
 }
-
 
 h1 {
   font-weight: bold;
@@ -51,7 +48,6 @@ h1 {
   padding: 10px 10px 10px 10px;
   z-index: 1;
 }
-
 
 .sidebutton {
   background-color: #4CAF50;
@@ -79,6 +75,10 @@ color: #4CAF50;
   left: 200px;
   z-index: -1;
 }
+
+.column-left{ float: left; width: 33%; }
+.column-right{ float: right; width: 33%; }
+.column-center{ display: inline-block; width: 33%; }
 
 
 #gpl-notice {

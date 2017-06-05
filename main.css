@@ -83,6 +83,14 @@ color: #4CAF50;
   top: 244px;
   left: 0;
   z-index: -1;
+  text-align: center;
+}
+
+.container {
+  margin-right:auto;	
+  margin-left:auto;	
+  padding-left:12px;	
+  padding-right:12px
 }
 
 .column-left{ float: left; width: 33%; }

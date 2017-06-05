@@ -46,6 +46,7 @@ h1 {
   left: 0;
   background-color: #4CAF50;
   z-index: 1;
+  padding: 10px;
 }
 
 #div-buttons {

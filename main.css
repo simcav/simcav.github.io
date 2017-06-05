@@ -45,7 +45,7 @@ h1 {
   position: fixed; /* Stay in place*/
   top: 204px;
   left: 0;
-  background-color: #0b0b0bff;
+  background-color: #4CAF50;
   padding: 0;
   z-index: 1;
 }
@@ -62,7 +62,7 @@ h1 {
 }
 
 .sidebutton {
-  background-color: #4CAF50;
+  background-color: #0b0b0bff;
   border: none;
   padding: 0px 25px;
   color: white;

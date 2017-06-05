@@ -67,8 +67,7 @@ h1 {
 }
 
 .sidebutton:hover {
-background-color: white;
-color: #4CAF50;
+  box-shadow: 10px 10px 5px grey;
 }
 
 

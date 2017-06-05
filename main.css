@@ -50,6 +50,11 @@ h1 {
   align-text: center;
 }
 
+#div-buttons {
+  position: relative;
+  left: 200px;
+}
+
 .sidebutton {
   background-color: #4CAF50;
   border: 2px solid #4CAF50;

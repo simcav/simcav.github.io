@@ -87,15 +87,16 @@ color: #4CAF50;
 }
 
 .container {
+  width: 60%;
   margin-right:auto;	
   margin-left:auto;	
   padding-left:12px;	
   padding-right:12px
 }
 
-.column-left{ float: left; width: 33%; }
-.column-right{ float: right; width: 33%; }
-.column-center{ display: inline-block; width: 33%; }
+.column-left{ float: left; width: 20%; }
+.column-right{ float: right; width: 20%; }
+.column-center{ display: inline-block; width: 20%; }
 
 
 #gpl-notice {

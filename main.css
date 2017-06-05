@@ -92,6 +92,9 @@ color: #4CAF50;
   margin-left:auto;	
   padding-left:12px;	
   padding-right:12px
+  position: absolute;
+  left: 200px;
+  top: 20 px;
 }
 
 .column-left{ float: left; width: 20%; }

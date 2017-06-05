@@ -51,7 +51,7 @@ h1 {
 }
 
 #div-buttons {
-  position: relative;
+  position: absolute;
   left: 200px;
   bottom: 0;
   padding-top: 10px;

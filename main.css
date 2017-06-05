@@ -9,6 +9,7 @@
   right: 0;
 }
 
+
 #divheader {
   background-image:url(header-pic2.jpg);
   background-repeat: no-repeat;
@@ -20,11 +21,13 @@
   top: 0;
 }
 
+
 #divtitle {
   position: absolute;
   left: 200px;
   bottom: 0;
 }
+
 
 h1 {
   font-weight: bold;
@@ -49,14 +52,14 @@ h1 {
   z-index: 1;
 }
 
+
 .sidebutton {
   background-color: #4CAF50;
   border: 2px solid #4CAF50;
   padding: 15px 32px;
-  width: 100%;
   color: white;
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   border-radius: 8px;
   margin: 0;
   margin-bottom: 10px;
@@ -75,16 +78,6 @@ color: #4CAF50;
   top: 204px;
   left: 200px;
   z-index: -1;
-}
-
-#updated {
-  width: 180px;
-  color: white;
-  position: absolute;
-  bottom: 0;
-  font-size: 12pt;
-  text-align: center;
-  margin: 0;
 }
 
 

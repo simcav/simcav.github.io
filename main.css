@@ -63,6 +63,7 @@ h1 {
   display: inline-block;
   font-size: 20px;
   border-radius: 8px;
+  margin-right: 10px;
 }
 
 .sidebutton:hover {

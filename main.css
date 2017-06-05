@@ -95,7 +95,9 @@ color: #4CAF50;
  position: absolute;
  left: 200px;
  top: 20 px;
+ text-align: left;
 }
+
 .container {
   width: 60%;
   margin-right:auto;	

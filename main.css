@@ -81,7 +81,7 @@ color: #4CAF50;
   background-color: rgba(76,175,80,0.1);
   position: absolute;
   top: 244px;
-  left: 200px;
+  left: 0;
   z-index: -1;
 }
 

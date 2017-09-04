@@ -73,7 +73,7 @@ h1 {
 }
 .sidebutton:active {
   color: white;
-  box-shadow: inset 0 0 0 1px #27496d,inset 0 5px 30px #306F33;
+  box-shadow: inset 0 0 0 1px #6DFB73,inset 0 5px 30px #306F33;
 }
 
 

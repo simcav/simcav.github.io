@@ -68,7 +68,6 @@ h1 {
 }
 
 .sidebutton:hover {
-  abox-shadow: 2px 3px 7px grey;
   box-shadow: inset 0 0 0 1px #6DFB73,0 5px 15px #306F33;
 }
 .sidebutton:active {
@@ -81,7 +80,7 @@ h1 {
   width: 100%;
   padding: 10px;
   background-color: rgba(76,175,80,0.1);
-  position: absolute;
+  position: relative;
   top: 260px;
   left: 0;
   height: 100%;

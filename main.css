@@ -90,23 +90,14 @@ h1 {
   overflow: hidden;
 }
 
-.row{
- width: 60%;
- margin-right:auto;  
- margin-left:auto; 
- padding-left:12px;  
- padding-right:12px;
- position: absolute;
- top: 20 px;
- text-align: left;
-}
-
-.container {
+.inner {
+  position: absolute;
   width: 60%;
-  margin-right:auto;	
-  margin-left:auto;	
-  padding-left:12px;	
-  padding-right:12px
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:12px;
+  padding-right:12px;
+  text-align: center;
 }
 
 .column-left{ float: left; width: 20%; }

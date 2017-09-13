@@ -72,6 +72,7 @@ h1 {
   position: relative;
   padding: 5px;
   left: 200px;
+  float: left
 }
 
 .sidebutton {

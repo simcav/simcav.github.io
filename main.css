@@ -1,20 +1,10 @@
+/* Three main divs: mainheader, navbar, divbody */
+
 #mainheader {
   background-color: black;
-  height: 204px;
-  width: 100%;
-  
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
-#divheader {
-  background-image:url(header-pic2.jpg);
-  background-repeat: no-repeat;
   position: relative;
   height: 204px;
-  width: 100%;
+  width: 100%; 
 }
 
 #navbar {
@@ -33,6 +23,14 @@
   padding: 0px;
 }
 
+
+#divheader {
+  background-image:url(header-pic2.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+  height: 204px;
+  width: 100%;
+}
 
 #divtitle {
   position: absolute;

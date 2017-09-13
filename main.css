@@ -100,10 +100,10 @@ h1 {
   text-align: center;
 }
 
-.column-left{ float: left; width: 20%; }
-.column-right{ float: right; width: 20%; }
-.column-center{ display: inline-block; width: 20%; }
-
+.column {
+  float: left; 
+  width: 25%;
+}
 
 #gpl-notice {
   position: fixed;

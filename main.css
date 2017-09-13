@@ -10,6 +10,7 @@ body {
 /* ********************************** */
 /* Three main divs: mainheader, navbar, divbody */
 #mainheader {
+  position: relative;
   background-color: black;
   position: relative;
   width: 100%;
@@ -18,6 +19,7 @@ body {
 }
 
 #navbar {
+  position: relative;
   background-color: #4CAF50;
   position: relative;
   width: 100%;

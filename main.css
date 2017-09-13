@@ -42,7 +42,7 @@ body {
 }
 
 #divtitle {
-  position: absolute;
+  position: relative;
   left: 200px;
   bottom: 10px;
 }
@@ -63,7 +63,7 @@ h1 {
   margin-right:auto;  
   margin-left:auto;
   padding: 5px;
-  position: absolute;
+  position: relative;
   left: 200px;
 }
 

@@ -84,6 +84,7 @@ h1 {
   position: absolute;
   top: 244px;
   left: 0;
+  height: 100%;
   z-index: -1;
   text-align: center;
 }

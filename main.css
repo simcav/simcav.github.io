@@ -78,13 +78,11 @@ h1 {
 
 #divbody {
   width: 100%;
-  padding: 10px;
   background-color: rgba(76,175,80,0.1);
   position: relative;
   top: 260px;
   left: 0;
   height: 100%;
-  z-index: -1;
   text-align: center;
   overflow: hidden;
 }

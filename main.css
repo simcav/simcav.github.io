@@ -1,6 +1,5 @@
 body {
     background-color: rgba(76,175,80,0.1);
-    position: absolute;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -44,6 +43,7 @@ body {
 
 #divtitle {
   text-align: left;
+    position: absolute;
   left: 200px;
   bottom: 10px;
 }

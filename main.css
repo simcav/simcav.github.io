@@ -12,13 +12,27 @@
 #divheader {
   background-image:url(header-pic2.jpg);
   background-repeat: no-repeat;
-  
+  position: relative;
   height: 204px;
   width: 100%;
-  z-index: 2;
-  position: absolute;
-  top: 0;
 }
+
+#navbar {
+  background-color: #4CAF50;
+  border: none;
+  position: relative;
+  width: 100%;
+  aapadding: 10px;
+}
+
+#divbody {
+  background-color: rgba(76,175,80,0.1);
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 0px;
+}
+
 
 #divtitle {
   position: absolute;
@@ -37,17 +51,6 @@ h1 {
   line-height: 70px;
 }
 
-
-#navbar {
-  width: 100%;
-  border: none;
-  position: fixed; /* Stay in place*/
-  top: 204px;
-  left: 0;
-  background-color: #4CAF50;
-  z-index: 1;
-  padding: 10px;
-}
 
 #div-buttons {
   width: 80%;
@@ -76,17 +79,6 @@ h1 {
 }
 
 
-#divbody {
-  width: 100%;
-  background-color: rgba(76,175,80,0.1);
-  position: relative;
-  top: 260px;
-  left: 0;
-  height: 100%;
-  text-align: center;
-  padding: 0px;
-}
-
 .inner {
   width: 80%;
   margin-right:auto;
@@ -100,6 +92,7 @@ h1 {
   float: left; 
   width: 25%;
 }
+
 
 #gpl-notice {
   position: fixed;

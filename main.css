@@ -59,6 +59,8 @@ h1 {
   margin-right:auto;  
   margin-left:auto;
   padding: 5px;
+  position: absolute;
+  left: 200px;
 }
 
 .sidebutton {

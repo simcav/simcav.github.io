@@ -109,8 +109,8 @@ h1 {
 #gpl-notice {
   position: fixed;
   left: 0;
-  right: 0;
   bottom: 0;
+  width: 100%;
   z-index: 1; /* Stay on top */
   background-color: grey;
   color: white;

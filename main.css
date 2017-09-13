@@ -1,6 +1,7 @@
 body {
     margin: 0;
     text-align: center;
+    background-color: rgba(76,175,80,0.1);
 }
 
 /* Three main divs: mainheader, navbar, divbody */
@@ -20,7 +21,6 @@ body {
 }
 
 #divbody {
-  background-color: rgba(76,175,80,0.1);
   position: relative;
   width: 100%;
 }

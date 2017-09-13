@@ -1,5 +1,10 @@
 /* Three main divs: mainheader, navbar, divbody */
 
+body {
+    margin: 0;
+    text-align: center;
+}
+
 #mainheader {
   background-color: black;
   position: relative;

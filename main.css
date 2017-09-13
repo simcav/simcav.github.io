@@ -63,6 +63,7 @@ h1 {
 #div-buttons {
   margin-right:auto;  
   margin-left:auto;
+  position: absolute;
   padding: 5px;
   left: 200px;
 }

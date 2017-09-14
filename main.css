@@ -116,6 +116,11 @@ h1 {
   width: 30%;
   padding: 15px;
 }
+
+#email {
+  color: black;
+  text-decoration: none; /* no underline */
+}
 /* ********************************** */
 
 /* ********************************** */

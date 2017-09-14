@@ -7,7 +7,7 @@ function showdiv(div1) {
 }
 
 function showemail() {
-  document.getElementById('email').innerHTML = "simcav@protonmail.com"
-    document.getElementById('email').href="mailto:simcav@protonmail.com"
+  this.innerHTML = "simcav@protonmail.com"
+  this.href="mailto:simcav@protonmail.com"
 }
   

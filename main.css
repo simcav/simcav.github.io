@@ -27,6 +27,7 @@ h2 {
   width: 100%;
   padding: 5px 0px;
   text-align: left;
+  overflow: hidden;
 }
 
 #divbody {

@@ -59,6 +59,8 @@ h2 {
 h1 {
   font-weight: bold;
   color: #4CAF50;
+  color: #D0F8FF;
+  text-shadow: 0 0 5px #95ff7a, 0 0 10px #95ff7a, 0 0 15px #A5F1FF, 0 0 20px #A5F1FF, 0 0 30px #A5F1FF;
   font-size: 100px;
   margin: 0px;
   padding: 0px;
@@ -69,6 +71,7 @@ h1 {
 /* ********************************** */
 /* Inside navbar */
 #div-buttons {
+  position: relative;
   padding: 5px;
   left: 200px;
   float: left

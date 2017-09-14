@@ -3,5 +3,5 @@ function showdiv(div1) {
   for (i = 0; i < divs.length; i++) {
     document.getElementById(divs[i]).className = "hidden";
   }
-  document.getElementById(divs1).className = "nothidden";
+  document.getElementById(div1).className = "nothidden";
 }

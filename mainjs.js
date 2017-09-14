@@ -5,3 +5,8 @@ function showdiv(div1) {
   }
   document.getElementById(div1).className = "nothidden";
 }
+
+function showemail() {
+  document.getElementById('email').data = "simcav@protonmail.com"
+}
+  

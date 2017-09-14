@@ -37,6 +37,17 @@ h2 {
 /* ********************************** */
 
 /* ********************************** */
+/* To hide or elements */
+.hidden {
+    display: none;
+}
+
+.nohidden {
+    display: inline;
+}
+/* ********************************** */
+
+/* ********************************** */
 /* Inside Mainheader */
 #divheader {
   background-image:url(header-pic2.jpg);

@@ -29,11 +29,6 @@ h2 {
   text-align: left;
   overflow: hidden;
 }
-
-#divhome {
-  position: relative;
-  width: 100%;
-}
 /* ********************************** */
 
 /* ********************************** */
@@ -42,8 +37,10 @@ h2 {
     display: none;
 }
 
-.nohidden {
+.nothidden {
     display: inline;
+    position: relative;
+    width: 100%;
 }
 /* ********************************** */
 

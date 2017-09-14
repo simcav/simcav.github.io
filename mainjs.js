@@ -7,6 +7,6 @@ function showdiv(div1) {
 }
 
 function showemail() {
-  document.getElementById('email').value = "simcav@protonmail.com"
+  document.getElementById('email').innerHTML = "simcav@protonmail.com"
 }
   

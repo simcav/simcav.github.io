@@ -111,6 +111,14 @@ h1 {
   padding-right:12px;
 }
 
+.policy {
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:12px;
+    padding-right:12px;
+}
+
 .column {
   float: left; 
   width: 30%;
@@ -135,4 +143,3 @@ h1 {
   font-size: 10pt;
 }
 /* ********************************** */
-

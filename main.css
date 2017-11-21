@@ -42,7 +42,7 @@ h2 {
     display: inline;
     position: relative;
     width: 100%;
-    z-index: 5;
+    z-index: 10;
 }
 /* ********************************** */
 

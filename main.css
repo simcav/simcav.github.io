@@ -36,6 +36,7 @@ h2 {
 .hidden {
     display: none;
     z-index: 5;
+    position: relative;
 }
 
 .nothidden {
@@ -106,6 +107,7 @@ h1 {
 /* ********************************** */
 /* Inside divbody */
 .inner {
+  position: relative;
   width: 80%;
   margin-right:auto;
   margin-left:auto;

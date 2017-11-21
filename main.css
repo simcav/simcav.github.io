@@ -127,6 +127,7 @@ h1 {
 }
 
 .column {
+  position: relative;
   float: left; 
   width: 30%;
   padding: 15px;

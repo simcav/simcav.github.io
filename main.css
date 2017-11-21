@@ -35,12 +35,14 @@ h2 {
 /* To hide or elements */
 .hidden {
     display: none;
+    z-index: 5;
 }
 
 .nothidden {
     display: inline;
     position: relative;
     width: 100%;
+    z-index: 5;
 }
 /* ********************************** */
 

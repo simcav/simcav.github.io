@@ -8,7 +8,7 @@ body {
 }
 
 h2 {
-    
+
 }
 
 /* ********************************** */
@@ -35,7 +35,7 @@ h2 {
 /* To hide or elements */
 .hidden {
     display: none;
-    z-index: 5;
+    #z-index: 5;
     position: relative;
 }
 
@@ -43,7 +43,7 @@ h2 {
     display: inline;
     position: relative;
     width: 100%;
-    z-index: 10;
+    #z-index: 10;
 }
 /* ********************************** */
 
@@ -107,13 +107,12 @@ h1 {
 /* ********************************** */
 /* Inside divbody */
 .inner {
-  position: relative;
   width: 80%;
   margin-right:auto;
   margin-left:auto;
   padding-left:12px;
   padding-right:12px;
-  z-index: inherit;
+  clear: both;
 }
 
 .policy {
@@ -122,16 +121,15 @@ h1 {
     margin-left:auto;
     padding-left:12px;
     padding-right:12px;
-    clear: both;
     text-align: left;
+    clear: both;
 }
 
 .column {
-  position: relative;
-  float: left; 
+  display: inline-block;
   width: 30%;
   padding: 15px;
-  z-index: inherit;
+  vertical-align: top;
 }
 
 #email {

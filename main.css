@@ -4,6 +4,7 @@ body {
     height: 100%;
     margin: 0;
     text-align: center;
+    min-width: 800px;
 }
 
 h2 {
@@ -128,7 +129,7 @@ h1 {
 .column {
   display: inline-block;
   width: 30%;
-  padding: 15px;
+  padding: 1%;
   vertical-align: top;
 }
 

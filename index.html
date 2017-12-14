@@ -3,25 +3,36 @@
 
 <head>
   <title>SimCav</title>
-  <link href="main.css" rel="stylesheet" />
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" media="(max-width: 800px)" href="main-800.css">
+  <link href="main.css" media="(min-width: 800px)" rel="stylesheet" />
   <script src="mainjs.js" type="text/javascript"></script>
+  <link rel="icon" href="logo0.png">
 </head>
 
 <body>
 
   <header id="mainheader">
     <div id="divheader">
-      <div id="divtitle">
-        <h1>SimCav</h1>
+      <div id="logo">
+        <img src="logo.png" height="180px">
+      </div>
+      <div id="title">
+        <img src="title.png" height="180px" id="imgtitle">
+      </div>
+      <div id="laser">
+        <img src="laser.png" height="50px" id="imglaser">
       </div>
     </div>
   </header>
-
+  
   <div id="navbar">
     <div id="div-buttons">
       <button class="sidebutton" onclick="showdiv('divhome')">Home</button>
+      <button class="sidebutton" onclick="showdiv('divwhy')">Why SimCav</button>
       <button class="sidebutton" onclick="showdiv('divdown')">Download</button>
       <button class="sidebutton" onclick="showdiv('divcon')">Contact</button>
+      <button class="sidebutton" onclick="showdiv('divdona')">Donate</button>
     </div>
   </div>
 
@@ -33,25 +44,26 @@
       SimCav is a program for designing laser cavities and analysing the beam geometry inside them
       </h2>
     </div>
-    <div class="inner">
-      <div class="column">
-        <img src="power.png" height="100px">
-        <h4>Powerful and portable</h4>
-        With its cavity calculator, you no longer will spend hours finding the correct configuration.
-        SimCav can do it for you in seconds. No installation is required, just download and run.
-      </div>
-      <div class="column">
-        <img src="simple.png" height="100px">
-        <h4>Simple and intuitive</h4>
-        <p>Modern and straightforward graphical interface working with one mouse click.
-        Export your cavity designs as jpg, png, etc. for convenient saving/printing.
-      </div>
-      <div class="column">
-        <img src="free.png" height="100px">
-        <h4>Free software</h4>
-        SimCav respects your freedom. You can run, copy, distribute, study, change and improve the
-        software. Besides being free as in "free speech", SimCav is also free as in "free beer"!
-      </div>
+      <div class="inner">
+        <div class="column">
+          <!--<img src="power.png" height="100px">-->
+          <h4>Powerful and portable</h4>
+          <p>With its cavity calculator, you no longer will spend hours finding the correct configuration.
+          SimCav can do it for you in seconds. No installation is required, just download and run.
+        </div>
+        <div class="column">
+          <!--<img src="simple.png" height="100px">-->
+          <h4>Simple and intuitive</h4>
+          <p>Modern and straightforward graphical interface working with one mouse click.
+          Export your cavity designs as jpg, png, etc. for convenient saving/printing.
+        </div>
+        <div class="column">
+          <!--<img src="free.png" height="100px">-->
+          <h4>Free software</h4>
+          <p>SimCav respects your freedom. You can run, copy, distribute, study, change and improve the
+          software. Besides being free as in "free speech", SimCav is also free as in "free beer"!
+        </div>
+        <img src="full1.png" width="70%">
     </div>
   </div>
 
@@ -60,45 +72,44 @@
   <div id="divdown" class="hidden">
     <div class="inner">
       <h2>
-      SimCav is a program for designing laser cavities and analysing the beam geometry inside them
+      
       </h2>
     </div>
     <div class="inner">
-      <div class="column">
+      <div class="column4">
         <img src="./gnulinux.png" height="45px">
         <h4>GNU/Linux</h4>
-        <a href="https://github.com/simcav/simcav/releases/download/v4.7.2/simcav_linux.zip">Download</a>
+        <h5><a href="https://github.com/simcav/simcav/releases/download/v4.7.2/simcav_linux.zip">Download</a></h5>
       </div>
-      <div class="column">
+      <div class="column4">
         <img src="./windows.png" height="45px">
         <h4>Windows</h4>
-        <a href="https://github.com/simcav/simcav/releases/download/v4.7.2/simcav_windows.zip">Download</a>
+        <h5><a href="https://github.com/simcav/simcav/releases/download/v4.7.2/simcav_windows.zip">Download</a></h5>
       </div>
-      <div class="column">
+      <div class="column4">
         <img src="./mac.png" height="45px">
         <h4>Mac</h4>
-        <a href="">Download (coming soon)</a>
+        <h5><a href="">Download (coming soon)</a></h5>
       </div>
-    </div>
-    <div class="inner">
-      <h5>
-        Simply download, extract, and run. GPG signature is included for verification. 
-      </h5>
-    </div>
-    <div class="inner">
-      <div class="column">
+      <div class="column4">
         <img src="resources.png" height="45px">
         <h4>Resources</h4>
-        <a href="https://github.com/simcav/simcav/blob/master/Manual.pdf" target="_blank">Manual</a>
-        <p><a href="https://github.com/simcav/simcav/archive/v4.7.2.zip" target="_blank">SimCav source code</a>
-        <p><a href="https://github.com/simcav/simcav.github.io" target="_blank">Website source code</a>
+        <h5><a href="https://github.com/simcav/simcav/blob/master/Manual.pdf" target="_blank">Manual</a> <br>
+        <a href="https://github.com/simcav/simcav/archive/v4.7.2.zip" target="_blank">SimCav source code</a></h5>
       </div>
+    </div>
+    <div class="inner">
+      <h4 style="width:90%;margin:auto">
+        Simply download, extract, and run. GPG signature is included for verification. 
+      </h4>
+    </div>
+    <div class="inner">
       <div class="policy">
-        <h4>Windows policy:</h4>
-        While a SimCav version for Microsoft Windows is available, I would prefer you not to use it. Microsoft is quite hostile to free software and I would prefer you to run SimCav on a platform that is not controlled by a free-software-hostile corporation.
+        <h5>Windows policy:</h5>
+        <p>While a SimCav version for Microsoft Windows is available, I would prefer you not to use it. Microsoft is quite hostile to free software and I would prefer you to run SimCav on a platform that is not controlled by a free-software-hostile corporation.
 
-        <h4>Apple policy:</h4>
-        SimCav can be run on MacOS, but I would prefer you not to do that. Apple is even more hostile than Microsoft to free software, technically and legally trapping consumers and developers in a (golden?) cage. If you are unfortunate enough to already own Apple products, please consider switching to an open platform like GNU/Linux or FreeBSD that doesn't impose 1984-like restrictions on your freedom.
+        <h5>Apple policy:</h5>
+        <p>SimCav can be run on MacOS, but I would prefer you not to do that. Apple is even more hostile than Microsoft to free software, technically and legally trapping consumers and developers in a (golden?) cage. If you are unfortunate enough to already own Apple products, please consider switching to an open platform like GNU/Linux or FreeBSD that doesn't impose 1984-like restrictions on your freedom.
       </div>
     </div>
 
@@ -109,25 +120,36 @@
   <div id="divcon" class="hidden">
     <div class="inner">
       <h2>
-      SimCav is a program for designing laser cavities and analysing the beam geometry inside them
+        
       </h2>
-    </div>
+      <div id="policy">
+        <p>SimCav is developped and maintained by Julio M. Rodríguez-García and
+        released under the GNU General Public License, version 3.0. Updated September 2017.
+      </div>
+    </div>    
     <div class="inner">
-      <div class="column">
+      <div class="column4">
         <h4>Citing SimCav</h4>
-        <a href="https://doi.org/10.5281/zenodo.594565" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.594565.svg" alt="DOI"></a>
+        <p><a href="https://doi.org/10.5281/zenodo.594565" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.594565.svg" alt="DOI"></a>
         <p>Julio M. Rodríguez-García. (2017, May 20). SimCav 4.7.1. Zenodo. http://doi.org/10.5281/zenodo.581643
       </div>
-      <div class="column">
+      <div class="column4">
         <h4>Github project page</h4>
-        <a href="https://github.com/simcav/simcav" target="_blank">SimCav on GitHub</a>
+        <p><a href="https://github.com/simcav/simcav" target="_blank">SimCav on GitHub</a>
+        <p><a href="https://github.com/simcav/simcav.github.io" target="_blank">Website code</a>
         <p>Contributions are welcome!
       </div>
-      <div class="column">
+      <div class="column4">
         <h4>Email</h4>
-        <a id="email" href=# onclick="showemail()">Show email</a>
-        <p><a href="https://github.com/simcav/simcav/blob/master/pgp_key.txt" target="_blank">GPG public key</a>. Key ID: F1F96023
+        <p><a id="email" href=# onclick="showemail()">Show email</a>
+        <p><a href="https://github.com/simcav/simcav/blob/master/pgp_key.txt" target="_blank">GPG public key</a>. Key ID: F1F96023 <br>
         <a href="http://download.fsfe.org/advocacy/promomaterial/Email-self-defense/gnupg-leaflet.en.pdf" target="_blank">Why use GPG?</a>
+      </div>
+      <div class="column4">
+        <h4>Collaborators</h4>
+        <p>Web design and logos:<br>
+          Omar
+        <p>Compilation for Mac:
       </div>
     </div>
   </div>
@@ -137,19 +159,48 @@
   <div id="divwhy" class="hidden">
     <div class="inner">
       <h2>
-      SimCav is a program for designing laser cavities and analysing the beam geometry inside them
+      
       </h2>
     </div>
     <div class="inner">
-      
+      <div class="policy">
+        <ul>
+          <li><b>Design calculator:</b> <br>
+            The built-in calculator can find solutions for cavities based on user-given conditions. <br><br>
+          <li><b>Clear interface:</b> <br>
+            A clear and minimalist interface with everything at hand, with the cavity plot as the central piece.<br><br>
+          <li><b>Export the plots:</b> <br>
+            The plots can be easily saved as image files (e.g. jpg) for easy sharing, printing, reporting etc.<br><br>
+          <li><b>Portable:</b> <br>
+            No install required, you could keep it in your usb key and run it everywhere you go. <br><br>
+          <li><b>Multiplatform:</b> <br>
+            Use the program or share your designs across multiple operating systems without hassle. <br><br>
+          <li><b>Iconographic:</b> <br>
+            Knowledge of english is not necessary to take full advantage of the software. <br><br>
+          <li><b>Open-source:</b> <br>
+            The source code is available to study or modify and adapt to your needs. <br><br>
+          <li><b>Free software:</b> <br>
+            Respecting your freedom and costless: no tracking, no ads, 100% science. <br><br>
+        </ul>
+      </div>
     </div>
   </div>
 
-
-  <div id="gpl-notice">
-    SimCav is developped and maintained by Julio M. Rodríguez-García and
-    released under the GNU General Public License, version 3.0. Updated September 2017.
+  
+  <!-- --------------------------------------------- */
+  /* Donations */ -->
+  <div id="divdona" class="hidden">
+    <div class="inner">
+      <h2>
+      
+      </h2>
+      <h5> If you enjoyed SimCav and want to show your apreciation feel free to buy the team a coffee. <br>
+      It will fuel further develpment of the code!</h5>
+      <img src="coffee.png" height="230px"><img src="bitcoin.png" height="200px">
+      <p> Bitcoin address: 18uacRXychyuDRQGoXq15n2e2sxvYVSuzX
   </div>
+
+  
 
 </body>
 </html>

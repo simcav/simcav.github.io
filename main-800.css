@@ -4,6 +4,7 @@ body {
     height: 100%;
     margin: 0;
     text-align: center;
+    min-width: 610px;
     font-size: 62.5%;
     padding-bottom: 10px;
 }
@@ -12,13 +13,10 @@ body {
 /* Three main divs: mainheader, navbar, divbody */
 #mainheader {
   position: relative;
-  background-image: url("laserbar.png"); 
   background-color: black;
   width: 100%;
-  height: 180px;
   margin: 0;
 }
-
 /* ********************************** */
 
 /* ********************************** */
@@ -40,35 +38,25 @@ body {
 /* ********************************** */
 /* Inside Mainheader */
 #logo {
+  width: 1px;
   position: absolute;
-  vertical-align: middle;
-  text-align: left;
-  margin: auto 0;
-  z-index: 100;
-}
-#title {
-  display: inline-block;
-  margin: auto;
-  z-index: 100;
-  width: 100%;
-}
-#imgtitle{
-  display: block;
-  margin-left: auto; 
-  margin-right: auto; 
-}
-#laser {
-  height: 1px;
   visibility: hidden;
 }
-
+#title {
+  width: 80%;
+  align: center;
+  margin: -15px auto;
+  margin-bottom: -30px;
+}
+#imgtitle {
+  height: 150px;
+  max-width: 100%;
+}
+#imglaser {
+  max-width: 100%;
+}
 #divheader {
-  background-image:url(aheader-pic3.png);
-  background-repeat: no-repeat;
-  height: 190px;
   width: 100%;
-  vertical-align: center;
-  text-align: left;
 }
 
 h1 {
@@ -76,27 +64,27 @@ h1 {
   color: #D0F8FF;
   text-shadow: 0 0 5px #95ff7a, 0 0 10px #95ff7a, 0 0 15px #A5F1FF, 0 0 20px #A5F1FF, 0 0 30px #A5F1FF;
   color: #4CAF50;
-  font-size: 12em;
+  font-size: 8em;
   margin: 0px;
   padding: 0px;
   line-height: 70px;
 }
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 h4 {
   font-size: 1.8em;
 }
 h5 {
-  font-size: 1.7em;
-  margin-bottom: 0.2em;
+  font-size: 1.6em;
+  margin-bottom: 0;
 }
 p {
   font-size: 1.5em;
-  margin-top: 0.3em;
+  amargin: 0;
 }
 ul {
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 /* ********************************** */
 
@@ -105,26 +93,24 @@ ul {
   position: relative;
   background-color: #4CAF50;
   width: 100%;
-  text-align: left;
+  margin: auto;
+  padding: 0.1em 0.03em;
+  text-align: center;
   overflow: hidden;
 }
 /* Inside navbar */
 #div-buttons {
   position: relative;
-  margin-left: 1.5%;
-  padding: 0.5em 0;
-  float: left;
 }
 
 .sidebutton {
   background-color: black;
   border: none;
-  padding: 0.2em 1.5em;
+  padding: 0.2em 0.5em;
   color: #01C606;
   display: inline-block;
   font-size: 20px;
   border-radius: 8px;
-  margin: 0 0.2em;
 }
 
 .sidebutton:hover {
@@ -146,29 +132,28 @@ ul {
   padding-right:0;
   clear: both;
 }
-
-.policy {
-    width: 80%;
-    margin-right:auto;
-    margin-left:auto;
-    padding-left:12px;
-    padding-right:12px;
-    text-align: left;
-    clear: both;
-}
-
 .column {
   display: inline-block;
-  width: 30%;
+  width: 80%;
+  padding: 1%;
+  vertical-align: top;
+  margin: 0 auto;
+}
+.column4 {
+  display: inline-block;
+  width: 40%;
   padding: 1%;
   vertical-align: top;
 }
 
-.column4 {
-  display: inline-block;
-  width: 20%;
-  padding: 1%;
-  vertical-align: top;
+.policy {
+  width: 80%;
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:12px;
+  padding-right:12px;
+  text-align: justify;
+  clear: both;
 }
 
 #email {
@@ -176,11 +161,4 @@ ul {
 }
 /* ********************************** */
 
-/* ********************************** */
-/* GPL notice */
-footer {
-  font-size: 1.3em;
-  background-color: grey;
-  color: white;
-}
 /* ********************************** */

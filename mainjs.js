@@ -1,5 +1,5 @@
 function showdiv(div1) {
-  var divs = ["divhome", "divdown", "divcon"]
+  var divs = ["divhome", "divwhy", "divdown", "divcon", "divdona"]
   for (i = 0; i < divs.length; i++) {
     document.getElementById(divs[i]).className = "hidden";
   }

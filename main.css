@@ -92,6 +92,11 @@ h5 {
   font-size: 1.7em;
   margin-bottom: 0.2em;
 }
+h6 {
+  font-size: 1.4em;
+  font-style: normal;
+  margin-bottom: 0.15em;
+}
 p {
   font-size: 1.5em;
   margin-top: 0.3em;

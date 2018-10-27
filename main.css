@@ -1,192 +1,122 @@
-body {
-    background-color: rgba(76,175,80,0.1);
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    text-align: center;
-    font-size: 62.5%;
-    padding-bottom: 10px;
+:root {
+  --colorPrimary: #005200;
+  /* --colorTitle: #009300; */
+  /* --colorButton: #00d800; */
+  --colorButton: rgba(0,216,0,100%);
+  --colorTitle: black;
+  --colorHeader: rgba(50,255,48,255)
 }
 
-/* ********************************** */
-/* Three main divs: mainheader, navbar, divbody */
-#mainheader {
-  position: relative;
-  background-image: url("laserbar.png"); 
-  background-color: black;
-  width: 100%;
-  height: 180px;
+* {
   margin: 0;
+  padding: 0;
 }
 
-/* ********************************** */
-
-/* ********************************** */
-/* To hide or elements */
-.hidden {
-    display: none;
-    #z-index: 5;
-    position: relative;
+body {
+  position: relative;
+  background: transparent;
+  height: 100vh;
+  width: 100vw;
+  font-size: 62.5%;
 }
-
-.nothidden {
-    display: inline;
-    position: relative;
-    width: 100%;
-    #z-index: 10;
-}
-/* ********************************** */
-
-/* ********************************** */
-/* Inside Mainheader */
-#logo {
+body::before {
+  content: '';
   position: absolute;
-  vertical-align: middle;
-  text-align: left;
-  margin: auto 0;
-  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('table.jpg');
+  background-size: cover;
+  z-index: -3;
 }
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;  
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -2;
+}
+
+header {
+  position: relative;
+  color: white;
+  font-family: serif;
+  height: 50px;
+  padding: 1em;
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  background-color: var(--colorHeader);
+  z-index: -1;
+}
+
 #title {
-  display: inline-block;
-  margin: auto;
-  z-index: 100;
-  width: 100%;
 }
-#imgtitle{
-  display: block;
-  margin-left: auto; 
-  margin-right: auto; 
-}
-#laser {
-  height: 1px;
-  visibility: hidden;
-}
-
-#divheader {
-  background-image:url(aheader-pic3.png);
-  background-repeat: no-repeat;
-  height: 190px;
-  width: 100%;
-  vertical-align: center;
-  text-align: left;
-}
-
-h1 {
-  font-weight: bold;
-  color: #D0F8FF;
-  text-shadow: 0 0 5px #95ff7a, 0 0 10px #95ff7a, 0 0 15px #A5F1FF, 0 0 20px #A5F1FF, 0 0 30px #A5F1FF;
-  color: #4CAF50;
-  font-size: 12em;
-  margin: 0px;
-  padding: 0px;
-  line-height: 70px;
-}
-h2 {
-  font-size: 2.5em;
-}
-h4 {
-  font-size: 1.8em;
-  margin-bottom: 0.4em;
-}
-h5 {
-  font-size: 1.7em;
-  margin-bottom: 0.2em;
-}
-h6 {
-  font-size: 1.4em;
-  font-style: normal;
-  margin-bottom: 0.15em;
-}
-p {
-  font-size: 1.5em;
-  margin-top: 0.3em;
-}
-ul {
-  font-size: 1.7em;
-}
-/* ********************************** */
-
-/* ********************************** */
-#navbar {
-  position: relative;
-  background-color: #4CAF50;
-  width: 100%;
-  text-align: left;
-  overflow: hidden;
-}
-/* Inside navbar */
-#div-buttons {
-  position: relative;
-  margin-left: 1.5%;
-  padding: 0.5em 0;
+#title img {
   float: left;
 }
-
-.sidebutton {
-  background-color: black;
-  border: none;
-  padding: 0.2em 1.5em;
-  color: #01C606;
-  display: inline-block;
-  font-size: 20px;
-  border-radius: 8px;
-  margin: 0 0.2em;
+#title h1 {
+  position: absolute;
+  left: 50px;
+  color: var(--colorTitle);
+  font-weight: normal;
+  font-size: 4.4em;
+  margin: auto 0;
+  padding: 0 0.5em;
 }
-
-.sidebutton:hover {
-  box-shadow: inset 0 0 0 1px #6DFB73,0 5px 15px #306F33;
-}
-.sidebutton:active {
-  color: white;
-  box-shadow: inset 0 0 0 1px #6DFB73,inset 0 5px 30px #306F33;
-}
-/* ********************************** */
-
-/* ********************************** */
-/* Inside divbody */
-.inner {
-  width: 100%;
-  margin-right: 0;
-  margin-left: 0;
-  padding-left:0;
-  padding-right:0;
+#title::after {
   clear: both;
 }
 
-.policy {
-    width: 80%;
-    margin-right:auto;
-    margin-left:auto;
-    padding-left:12px;
-    padding-right:12px;
-    text-align: left;
-    clear: both;
+#menuBar {
+  height: 100%;
+  float: right;
+  list-style-type: none;
+  display: flex;
 }
-
-.column {
-  display: inline-block;
-  width: 30%;
-  padding: 1%;
-  vertical-align: top;
-}
-
-.column4 {
-  display: inline-block;
-  width: 20%;
-  padding: 1%;
-  vertical-align: top;
-}
-
-#email {
+#menuBar .menuOption {
   color: black;
+  height: 100%;
+  width: 11em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: color 0.15s ease-in, background-color 0.15s ease-in;
+  margin: -1em 0;
+  padding: 1em 0;
 }
-/* ********************************** */
+#menuBar .menuOption:hover {
+  background-color: var(--colorButton);
+  color: black;
 
-/* ********************************** */
-/* GPL notice */
-footer {
-  font-size: 1.3em;
-  background-color: grey;
-  color: white;
 }
-/* ********************************** */
+#menuBar .menuOption > * {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  font-size: 1.5em;
+}
+#menuBar .menuOption .fa {
+  padding: 10px;
+}
+
+
+.test{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  font-size: 2em;  
+}

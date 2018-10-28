@@ -6,214 +6,228 @@
   <meta charset="UTF-8">
   <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" media="(max-width: 800px)" href="main-800.css">
+  <link rel="stylesheet" media="(max-width: 799px)" href="main-800.css">
   <link href="main.css" media="(min-width: 800px)" rel="stylesheet" />
   <script src="mainjs.js" type="text/javascript"></script>
   <link rel="icon" href="logo0.png">
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  <!-- FONTS -->
+  <!-- Title -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <!-- NavBar -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Body -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 
 <body>
-
-  <header id="mainheader">
-    <div id="divheader">
-      <div id="logo">
-        <img src="logo.png" height="180px">
-      </div>
-      <div id="title">
-        <img src="title.png" height="180px" id="imgtitle">
-      </div>
-      <div id="laser">
-        <img src="laser.png" height="50px" id="imglaser">
-      </div>
+  <header>
+    <div id="title">
+      <img src="logo1.png">
+      <h1>
+        SimCav
+      </h1>
     </div>
-  </header>
-
-  <div id="navbar">
-    <div id="div-buttons">
-      <button class="sidebutton" onclick="showdiv('divhome')">Home</button>
-      <button class="sidebutton" onclick="showdiv('divwhy')">Why SimCav</button>
-      <button class="sidebutton" onclick="showdiv('divdown')">Download</button>
-      <button class="sidebutton" onclick="showdiv('divcon')">Contact</button>
-      <button class="sidebutton" onclick="showdiv('divdona')">Donate</button>
-    </div>
-  </div>
-
-  <!-- --------------------------------------------- */
-  /* Home page */ -->
-  <div id="divhome" class="nothidden">
-    <div class="inner">
-      <h2>
-      SimCav is a program for designing laser cavities and analysing the beam geometry inside them
-      </h2>
-    </div>
-      <div class="inner">
-        <div class="column">
-          <!--<img src="power.png" height="100px">-->
-          <h4>Powerful and portable</h4>
-          <p>With its cavity calculator, you no longer will spend hours finding the correct configuration.
-          SimCav can do it for you in seconds. No installation is required, just download and run.
-        </div>
-        <div class="column">
-          <!--<img src="simple.png" height="100px">-->
-          <h4>Simple and intuitive</h4>
-          <p>Modern and straightforward graphical interface working with one mouse click.
-          Export your cavity designs as jpg, png, etc. for convenient saving/printing.
-        </div>
-        <div class="column">
-          <!--<img src="free.png" height="100px">-->
-          <h4>Free software</h4>
-          <p>SimCav respects your freedom. You can run, copy, distribute, study, change and improve the
-          software. Besides being free as in "free speech", SimCav is also free as in "free beer"!
-        </div>
-        <h5>Drawing a very basic cavity:</h5><br>
-        <img src="full1.png" width="70%"> <br><br>
-        <h5>Finding solutions with the design calculator:</h5><br>
-        <img src="full3.png" width="70%">
-    </div>
-  </div>
-
-  <!-- --------------------------------------------- */
-  /* Download page */ -->
-  <div id="divdown" class="hidden">
-    <div class="inner">
-      <h2>
-
-      </h2>
-    </div>
-    <div class="inner">
-      <div class="column4">
-        <img src="./gnulinux.png" height="45px">
-        <h4>GNU/Linux</h4>
-        <h5><a href="https://gitlab.com/simcav/simcav.gitlab.io/raw/master/Release/simcav_linux.zip">Download</a></h5>
-      </div>
-      <div class="column4">
-        <img src="./windows.png" height="45px">
-        <h4>Windows</h4>
-        <h5><a href="https://gitlab.com/simcav/simcav.gitlab.io/raw/master/Release/simcav_windows.zip">Download</a></h5>
-      </div>
-      <div class="column4">
-        <img src="./mac.png" height="45px">
-        <h4>Mac</h4>
-        <h5>Download coming soon...</h5>
-      </div>
-      <div class="column4">
-        <img src="resources.png" height="45px">
-        <h4>Resources</h4>
-        <h5><a href="https://simcav.gitlab.io/manual.pdf" target="_blank">Manual</a> <br>
-        <a href="https://gitlab.com/simcav/simcav/-/archive/v4.8.2/simcav-v4.8.2.zip" target="_blank">SimCav source code</a></h5>
-      </div>
-    </div>
-    <div class="inner">
-      <h4 style="width:90%;margin:auto">
-        Simply download, extract, and run.
-      </h4>
-      <p style="width:90%;margin:auto">
-        GPG signature is included for verification.
-    </div>
-    <div class="inner">
-      <div class="policy">
-        <h5>Windows policy:</h5>
-        <p>While a SimCav version for Microsoft Windows is available, I would prefer you not to use it. Microsoft is quite hostile to free software and I would prefer you to run SimCav on a platform that is not controlled by a free-software-hostile corporation.
-
-        <h5>Apple policy:</h5>
-        <p>SimCav can be run on MacOS, but I would prefer you not to do that. Apple is even more hostile than Microsoft to free software, technically and legally trapping consumers and developers in a (golden?) cage. If you are unfortunate enough to already own Apple products, please consider switching to an open platform like GNU/Linux or FreeBSD that doesn't impose 1984-like restrictions on your freedom.
-      </div>
-    </div>
-
-  </div>
-
-  <!-- --------------------------------------------- */
-  /* Contact page */ -->
-  <div id="divcon" class="hidden">
-    <div class="inner">
-        <h6>SimCav is developped and maintained by Julio M. Rodríguez-García and
-        released under the GNU <a href="https://www.gnu.org/licenses/gpl-3.0.en.html" target="_blank">General Public License</a>. Updated 2018-06.</h6>
-    </div>
-    <div class="inner">
-      <div class="column4">
-        <h4>Citing SimCav</h4>
-        <p><a href="https://doi.org/10.5281/zenodo.594565"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.594565.svg" alt="DOI"></a>
-        <p>Julio M. Rodríguez-García. (2018, February 25). SimCav: Mace (Version v4.8.2). Zenodo. DOI: 10.5281/zenodo.594565
-      </div>
-      <div class="column4">
-        <h4>GitLab project page</h4>
-        <p><a href="https://gitlab.com/simcav/simcav" target="_blank">SimCav on GitLab</a>
-        <p><a href="https://gitlab.com/simcav/simcav.gitlab.io" target="_blank">Website code</a>
-        <p>Contributions are welcome!
-      </div>
-      <div class="column4">
-        <h4>Email</h4>
-        <p><a id="email" href=# onclick="showemail()">Show email</a>
-        <p><a href="https://gitlab.com/simcav/simcav/raw/master/pgp_key.txt" target="_blank">GPG public key</a>. Key ID: F1F96023 <br>
-        <a href="http://download.fsfe.org/advocacy/promomaterial/Email-self-defense/gnupg-leaflet.en.pdf" target="_blank">Why use GPG?</a>
-      </div>
-      <div class="column4">
-        <h4>Collaborators</h4>
-        <p>Ideas, advice and support:<br>
-          Liz
-        <p>Web design and logos:<br>
-          Omar
-        <p>Compilation for Mac:
-      </div>
-    </div>
-    <div id="policy">
     
-    </div>      
+    <!-- Menu -->
+    <ul id="menuBar">
+      <li class="menuOption">
+        <a class="targetLink" href="">
+          <i class="fa fa-home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      <li class="menuOption">
+        <a class="targetLink" href="#Downloads">
+          <i class="fa fa-download"></i>
+          <span>Downloads</span>
+        </a>
+      </li>
+      <li class="menuOption">
+        <a class="targetLink" href="#About">
+          <i class="fa fa-info"></i>
+          <span>About</span>
+        </a>
+      </li>
+      <li class="menuOption">
+        <a class="targetLink" href="#Contact">
+          <i class="fa fa-envelope"></i>
+          <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+  </header>
+  
+  <div class="bodyBody">
+  <div id="Home" class="content col2">
+    
+    <ul id="motivator">
+      <li>
+        <h2>Simple yet powerful laser system designer</h2>
+        <button>Try it now</button>
+      </li>
+      <li>
+        <img src="/home/julio/Downloads/pcscreen.png" height="250px">
+      </li>
+    </ul>
   </div>
-
-  <!-- --------------------------------------------- */
-  /* Why SimCav */ -->
-  <div id="divwhy" class="hidden">
-    <div class="inner">
-      <h2>
-
-      </h2>
-    </div>
-    <div class="inner">
-      <div class="policy">
-        <ul>
-          <li><b>Design calculator:</b> <br>
-            The built-in calculator can find solutions for cavities based on user-given conditions. <br><br>
-          <li><b>Clear interface:</b> <br>
-            A clear and minimalist interface with everything at hand, with the cavity plot as the central piece.<br><br>
-          <li><b>Export the plots:</b> <br>
-            The plots can be easily saved as image files (e.g. jpg) for easy sharing, printing, reporting etc.<br><br>
-          <li><b>Portable:</b> <br>
-            No install required, you could keep it in your usb key and run it everywhere you go. <br><br>
-          <li><b>Multiplatform:</b> <br>
-            Use the program or share your designs across multiple operating systems without hassle. <br><br>
-          <li><b>Iconographic:</b> <br>
-            Knowledge of english is not necessary to take full advantage of the software. <br><br>
-          <li><b>Open-source:</b> <br>
-            The source code is available to study or modify and adapt to your needs. <br><br>
-          <li><b>Free software:</b> <br>
-            Respecting your freedom and costless: no tracking, no ads, 100% science. <br><br>
-        </ul>
+  
+  <div class="content col3">    
+    <ul>
+      <div id="picture">
+        <img src="laser1.png">
       </div>
-    </div>
-  </div>
-
-
-  <!-- --------------------------------------------- */
-  /* Donations */ -->
-  <div id="divdona" class="hidden">
-    <div class="inner">
-      <h2>
-
-      </h2>
-      <h5> If you enjoyed SimCav and want to show your apreciation feel free to buy the team a coffee. <br>
-      It will fuel further development of the code!</h5>
-      <img src="coffee.png" height="230px"> <br><br>
-      <div class="inner">
-        <div class="wallet">
-          <img src="logo-bitcoin.png" height="100px">
-          <img src="QR-bitcoin.png" height="100px">
-          <p>35CJUteKQXmTmFie1QGzLpoDxz1DTiF9Qh
+      
+      <li>
+        Accelerate design
+        <div class="fill">
+          <div class="reasons">
+            <ul>
+              <li><span>Design calculator:</span><br>
+                The built-in calculator can find solutions for cavities based on user-given conditions.
+              <li><span>Clear interface:</span><br>
+                A clear and minimalist interface with everything at hand, with the cavity plot as the central piece.
+              <li><span>Portable:</span><br>
+                No install required, keep it in a usb key and run it everywhere you go.
+            </ul>
+          </div>
         </div>
-      </div>
+      </li>
+      <li>
+        Empower analysis
+        <div class="fill">
+          <div class="reasons">
+            <ul>
+              <li><span>Minimalistic design</span><br>
+                Leaving space for what really matters: the plots.
+              <li><span>Multiple tools</span><br>
+                Read coordinates, zoom as desired, modify axes...
+              <li><span>Export</span><br>
+                Plots easily saved as image files (in various formats).
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li>
+        Reduce costs
+        <div class="fill">
+          <div class="reasons">
+            <ul>
+              <li><span>Free software:</span><br>
+                Respecting your freedom and costless: no tracking, no ads, 100% science.
+              <li><span>Multiplatform:</span><br>
+                Use the program or share your designs across multiple operating systems without hassle.
+              <li><span>Open-source:</span><br>
+                The source code is available to study or modify and adapt to your needs.
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
-
-
-
+  
+  <!-- ===================================================================== -->
+  <!-- HERE GO THE DOWNLOADS -->
+  <!-- ===================================================================== -->
+  <div class="separator">
+    <span id="Downloads">Downloads</span>
+  </div>
+  
+  <div class="content col4">
+    <ul>
+      <li>
+        <a class="downLink" href="https://gitlab.com/simcav/simcav.gitlab.io/raw/master/Release/simcav_linux.zip">
+        <!-- <img src="./gnulinux.png" height="45px"> -->
+        <i class="fab fa-linux"></i>
+        <h4>GNU/Linux</h4>
+        </a>
+      </li>
+      <li>
+        <a class="downLink" href="https://gitlab.com/simcav/simcav.gitlab.io/raw/master/Release/simcav_windows.zip">
+        <!-- <img src="./windows.png" height="45px"> -->
+        <i class="fab fa-windows"></i>
+        <h4>Windows</h4>
+        </a>
+      </li>
+      <li>
+        <a class="downLink" href="">
+        <!-- <img src="./mac.png" height="45px"> -->
+        <i class="fab fa-apple"></i>
+        <h4>MacOs</h4>
+      </a>
+      </li>
+      <li>
+        <a class="downLink" href="https://simcav.gitlab.io/manual.pdf" target="_blank">
+        <!-- <img src="resources.png" height="45px"> -->
+        <i class="fa fa-book"></i>
+        <h4>Manual</h4>
+        </a>
+      </li>
+    </ul>
+    
+    <div>
+      
+    </div>
+  </div>
+  
+  <!-- ===================================================================== -->
+  <!-- HERE GO THE ABOUT -->
+  <!-- ===================================================================== -->
+  <div class="separator">
+    <span id="About">About</span>
+  </div>
+  
+  <div class="content col">
+    <ul>
+      <li>
+        <p style="font-weight:bold;">Citing SimCav
+        <p style="font-size:0.8em;"><a href="https://doi.org/10.5281/zenodo.594565"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.594565.svg" alt="DOI"></a>
+        <p style="font-size:0.8em;">Julio M. Rodríguez-García. (2018, February 25). SimCav: Mace (Version v4.8.2). Zenodo. DOI: 10.5281/zenodo.594565
+      </li>
+      <li>
+        <p style="font-weight:bold;">Contributing
+        <h5 id="help">Help welcome:<span class="tooltiptext">Get in touch!</span></h5>
+          <span>Ideas, coding, designing, bugs, requests...</span>
+        <h5 id="BTC1">Buy me a cofee:<br>
+          <span id="BTC">35CJUteKQXmTmFie1QGzLpoDxz1DTiF9Qh
+            <span class="tooltiptext"><img src="QR-bitcoin2.png" height="100px"></span>
+          </span>
+        </h5>
+        <h5 id="thanks">Special thanks to:<span class="tooltiptext">Your name here</span></h5>
+          <span>Liz, Omar, Riccardo</span>
+      </li>
+    </ul>
+  </div>
+  
+  <!-- ===================================================================== -->
+  <!-- HERE GO THE CONTACT -->
+  <!-- ===================================================================== -->
+  <div class="separator">
+    <span id="Contact">Contact</span>
+  </div>
+  
+  <div id="contactContent" class="content col2">
+    <ul>
+      <li>
+        <p style="font-size:1.1em;font-weight:bold;">Dr. Julio M. Rodríguez-García
+        <p><a href="mailto: simcav@protonmail.com">Email:</a> simcav@protonmail.com
+          <br>
+          <span style="font-size:0.7em;"><a href="https://gitlab.com/simcav/simcav/raw/master/pgp_key.txt" target="_blank">GPG public key</a>
+          (Key ID: F1F96023)
+          <a id="gpg" class="fa fa-question" href="http://download.fsfe.org/advocacy/promomaterial/Email-self-defense/gnupg-leaflet.en.pdf" target="_blank"><span class="tooltiptext">What's this?</span></a>
+          </span>
+      </li>
+      <li>
+        <p style="margin-top:-0.5em;text-align:center;"><i class="fab fa-gitlab" style="font-size:2em;"></i>
+        <p><a href="https://gitlab.com/simcav/simcav" target="_blank">SimCav repository</a><br>
+        <span style="font-size:0.7em;">Written in Python/PyQT</span>
+        
+        <p><a href="https://gitlab.com/simcav/simcav.gitlab.io" target="_blank">Website repository</a><br>
+        <span style="font-size:0.7em;">Written in HTML/CSS</span>
+      </li>
+    </ul>
+  </div>
+    
 </body>
 </html>

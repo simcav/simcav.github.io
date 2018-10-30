@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   <!-- FONTS -->
   <!-- Title -->
+  
+  
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <!-- NavBar -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -26,7 +29,7 @@
     <div id="title">
       <img src="logo1.png">
       <h1>
-        SimCav
+        SIMCAV
       </h1>
     </div>
     
@@ -59,37 +62,39 @@
     </ul>
   </header>
   
+  
+  <!-- ===================================================================== -->
+  <!-- MAIN CONTENT -->
+  <!-- ===================================================================== -->
   <div class="bodyBody">
   <div id="Home" class="content col2">
-    
     <ul id="motivator">
       <li>
         <h2>Simple yet powerful laser system designer</h2>
         <button>Try it now</button>
       </li>
       <li>
-        <div id="motPic"><img src="laptop.png" height="250px"></div>
+        <div id="motPic"><img src="laptop.png"></div>
       </li>
     </ul>
   </div>
   
   <div class="content col3">    
-    <ul>
-      <div id="picture">
-        <img src="laser1.png">
-      </div>
-      
+    <ul>      
       <li>
-        Accelerate design
+        <span>Accelerate design</span>
         <div class="fill">
+          <div class="picture one">
+            <!-- <img src="laser21.png"> -->
+          </div>
           <div class="reasons">
             <ul>
-              <li><span>Design calculator:</span><br>
-                The built-in calculator can find solutions for cavities based on user-given conditions.
-              <li><span>Clear interface:</span><br>
-                A clear and minimalist interface with everything at hand, with the cavity plot as the central piece.
-              <li><span>Portable:</span><br>
-                No install required, keep it in a usb key and run it everywhere you go.
+              <li><span>Design calculator</span><br>
+                Built-in calculator finds solutions based on user-given conditions.
+              <li><span>Minimalistic layout</span><br>
+                Leaving space for what really matters: the plots.
+              <li><span>Portable</span><br>
+                No installation required, run it from a USB everywhere you go.
             </ul>
           </div>
         </div>
@@ -97,10 +102,13 @@
       <li>
         Empower analysis
         <div class="fill">
+          <div class="picture two">
+            <!-- <img src="laser22.png"> -->
+          </div>
           <div class="reasons">
             <ul>
-              <li><span>Minimalistic design</span><br>
-                Leaving space for what really matters: the plots.
+              <li><span>Plot centred</span><br>
+                Beam geometry, cross section, stability.
               <li><span>Multiple tools</span><br>
                 Read coordinates, zoom as desired, modify axes...
               <li><span>Export</span><br>
@@ -112,14 +120,18 @@
       <li>
         Reduce costs
         <div class="fill">
+          <div class="picture three">
+            <!-- <img src="laser23.png"> -->
+          </div>
           <div class="reasons">
             <ul>
-              <li><span>Free software:</span><br>
-                Respecting your freedom and costless: no tracking, no ads, 100% science.
-              <li><span>Multiplatform:</span><br>
-                Use the program or share your designs across multiple operating systems without hassle.
-              <li><span>Open-source:</span><br>
-                The source code is available to study or modify and adapt to your needs.
+              <li><span>Free software</span><br>
+                As in beer. As in freedom.<br>No tracking, no ads, 100% science.
+              <li><span>Multiplatform</span><br>
+                Linux, Windows, MacOs<br>Use it everywhere without hassle.
+              <li><span>Open-source</span><br>
+                Source code available<br>
+                Study, modify or adapt to your needs.
             </ul>
           </div>
         </div>
@@ -209,7 +221,7 @@
   
   <div id="contactContent" class="content col2">
     <ul>
-      <li>
+      <li id="contactDetails">
         <p style="font-size:1.1em;font-weight:bold;">Dr. Julio M. Rodríguez-García
         <p><a href="mailto: simcav@protonmail.com">Email:</a> simcav@protonmail.com
           <br>
@@ -218,13 +230,18 @@
           <a id="gpg" class="fa fa-question" href="http://download.fsfe.org/advocacy/promomaterial/Email-self-defense/gnupg-leaflet.en.pdf" target="_blank"><span class="tooltiptext">What's this?</span></a>
           </span>
       </li>
-      <li>
-        <p style="margin-top:-0.5em;text-align:center;"><i class="fab fa-gitlab" style="font-size:2em;"></i>
+      <li id="contactSource">
+        <p style="font-size:1.1em;font-weight:bold;text-align:center;">Source Code
+          
         <p><a href="https://gitlab.com/simcav/simcav" target="_blank">SimCav repository</a><br>
         <span style="font-size:0.7em;">Written in Python/PyQT</span>
         
         <p><a href="https://gitlab.com/simcav/simcav.gitlab.io" target="_blank">Website repository</a><br>
         <span style="font-size:0.7em;">Written in HTML/CSS</span>
+        
+        <p style="text-align:center"><a href="https://gitlab.com/" target="_blank" style="color:var(--colorText)">
+          <span style="font-size:0.8em;">Hosted in GitLab</span>
+          <i class="fab fa-gitlab" style="font-size:1.1em;padding-left:10px"></i></a>
       </li>
     </ul>
   </div>

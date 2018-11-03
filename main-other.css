@@ -1,0 +1,144 @@
+:root {
+  --colorPrimary: #005200;
+  --colorPrimaryLight: #00d800;
+  /* --colorTitle: #009300; */
+  /* --colorButton: #00d800; */
+  --colorButton: #00d800;
+  --colorButtonPressed: #00a900;
+  --colorTitle: #00a900;
+  --colorTitle: var(--colorPrimaryLight);
+  --colorText: white;
+  --colorTextDark: black;
+  --colorLink: var(--colorPrimaryLight);
+  --transparentLight: rgba(255,255,255,0.1);
+  --transparentDark: rgba(0,0,0,0.8);
+  --colorSeparator: rgba(255,255,255,0.8);
+}
+
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  /* box-sizing: border-box; */
+}
+
+a {
+  color: var(--colorLink);
+  text-decoration: none;
+}
+
+body {
+  position: absolute;
+  //background: transparent;
+  margin: 0;
+  top: 0;
+  left: 0;
+  //height: 100vh;
+  width: 100vw;
+  font-size: 62.5%;
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 100vh;
+  width: 100vw;
+  background: url('table2.jpeg') no-repeat fixed;
+  background-size: cover;
+  z-index: -10;
+}
+body::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-height: 100vh;
+  width: 100vw;
+  background: black;
+  opacity: 0.7;
+  z-index: -9;
+}
+
+#Back {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 2em;
+  margin: 0;
+  padding: 0.5em 1.3em;
+  background-color: transparent;
+  color: var(--colorText);
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: all 0.15s ease-in;
+  z-index: 1;
+}
+#Back:hover {
+  background-color: var(--colorButton);
+  border-color: black;
+  color: var(--colorTextDark);
+}
+#Back i {
+  margin-bottom: 0.3em;
+}
+#Back p {
+  margin: 0;
+}
+
+body div {
+  position: relative;
+  margin: 50px auto;
+  padding: 1em 2em;
+  width: 70%;
+  font-size: 2em;
+  color: var(--colorTextDark);
+  background-color: var(--transparentLight);
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+body div::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;  
+  right: 0;
+  background: white no-repeat fixed;
+  opacity: 0.3;
+  z-index: -4;
+}
+
+body div h2 {
+  color: var(--colorButton);
+  margin: 1em 0 0.8em 0;
+}
+
+body div table {
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+body div p {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+body div li {
+  margin-bottom: 0.7em;
+}
+
+body div code {
+  margin-left: 2em;
+  background-color: black;
+  color: white;
+  padding: 0.5em;  
+}

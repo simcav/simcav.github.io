@@ -25,50 +25,63 @@
   <body>
     <a id="Back" href="index.html"><i class="fa fa-home"></i><p>Home</p></a>
     
-    
     <div>
-      <h2>Linux</h2>
+      <div class="tableDiv" style="overflow-x:auto;">
       <table>
         <tr>
+          <th>OS</th>
+          <th>Version</th>
           <th>File</th>
-          <th>GPG Key</th>
+          <th>GPG Signature</th>
           <th>SHA1</th>
         </tr>
+        <!-- =============================================================== -->
+        <!-- LINUX -->
+        <!-- =============================================================== -->
         <tr>
+          <td rowspan="2"><i class="fab fa-linux"></td>
+          <td rowspan="2">4.8.4</td>
           <td>simcav_installer.py</td>
+          <td><a href="Signatures/simcav_installer.sig">Signature file</a></td>
+          <td class="SHA">e6f5f962f6440a2c9ffa4c8e6df9f41c6f385bef</td>
+        </tr>
+        <tr class="last">
+          <td>SimCav</td>
+          <td><a href="Signatures/SimCav.sig">Signature file</a></td>
+          <td class="SHA">cfa87d14f610678b60a88d497f6436c205bb0ff4</td>
+        </tr>
+        <!-- =============================================================== -->
+        <!-- WINDOWS -->
+        <!-- =============================================================== -->
+        <tr>
+          <td rowspan="2"><i class="fab fa-windows"></i></td>
+          <td rowspan="2">4.8.4</td>
+          <td>simcav_installer.py</td>
+          <td><a href="Signatures/simcav_installer.sig">Signature file</a></td>
+          <td class="SHA">e6f5f962f6440a2c9ffa4c8e6df9f41c6f385bef</td>
+        </tr>
+        <tr class="last">
+          <td>SimCav.exe</td>
+          <td><a href="Signatures/SimCav.exe.sig">Signature file</a></td>
+          <td class="SHA">a75f0dc4c568c9580607bd3ac4b511e623b3d6cf</td>
+        </tr>
+        <!-- =============================================================== -->
+        <!-- MACOS -->
+        <!-- =============================================================== -->
+        <tr>
+          <td rowspan="2"><i class="fab fa-apple"></i></td>
+          <td rowspan="2">4.8.4</td>
           <td></td>
-          <td>e6f5f962f6440a2c9ffa4c8e6df9f41c6f385bef</td>
+          <td></td>
+          <td class="SHA"></td>
+        </tr>
+        <tr class="last">
+          <td></td>
+          <td></td>
+          <td></td>
         </tr>
       </table>
-      
-      <h2>Windows</h2>
-      <table>
-        <tr>
-          <th>File</th>
-          <th>GPG Key</th>
-          <th>SHA1</th>
-        </tr>
-        <tr>
-          <td>simcav_installer.py</td>
-          <td></td>
-          <td>e6f5f962f6440a2c9ffa4c8e6df9f41c6f385bef</td>
-        </tr>
-      </table>
-      
-      <h2>MacOs</h2>
-      <table>
-        <tr>
-          <th>File</th>
-          <th>GPG Key</th>
-          <th>SHA1</th>
-        </tr>
-        <tr>
-          <td>simcav_installer.py</td>
-          <td></td>
-          <td>e6f5f962f6440a2c9ffa4c8e6df9f41c6f385bef</td>
-        </tr>
-      </table>
-      
+      </div>  
     </div>
   </body>
 </html>

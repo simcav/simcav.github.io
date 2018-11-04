@@ -121,10 +121,31 @@ body div h2 {
 }
 
 body div table {
+  margin: 0;
+  font-size: 0.45em;
+  width: 100%;
+}
+table, th {
+  border-bottom: 1px solid white;
+  border-collapse: collapse;
 }
 th, td {
-    padding: 15px;
-    text-align: left;
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  font-weight: bold;
+}
+td {
+  font-size: 0.9em;
+}
+.last {
+  border-bottom: 1px solid white;
+}
+.fab {
+  font-size: 1.7em;
+  padding: 20px 5px;
 }
 
 body div p {
@@ -141,4 +162,26 @@ body div code {
   background-color: black;
   color: white;
   padding: 0.5em;  
+}
+
+.tableDiv {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: none;
+}
+.tableDiv::after {
+  content: none;
+}
+
+.SHA {
+  font-size: 1em;
+  font-family: monospace;
+ }
+.warning {
+  text-align: center;
+  background-color: var(--transparentDark);
+  color: var(--colorText);
+  border-radius: 10px;
 }

@@ -149,9 +149,9 @@ header::before {
   border-radius: 3px;
   z-index: 11;
   transform-origin: 4px 0px;
-  /* transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease; */
+              opacity 0.55s ease;
 }
 #menuToggle span:first-child {
   transform-origin: 0% 0%;
@@ -189,10 +189,10 @@ header::before {
   transform-origin: 100% 0%;
   transform: translate(100%, 0);
   
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), visibility 1s ease-in-out 0s;
   display: flex;
   flex-direction: row;
+  visibility: hidden;
 }
 #menuBar li {
   color: var(--colorTextDark);
@@ -212,48 +212,8 @@ header::before {
 /* And let's slide it in from the right */
 #menuToggle input:checked ~ ul {
   transform: none;
+  visibility: visible;
 }
-
-
-
-
-
-
-
-/* #menuBar {
-  height: 100%;
-  float: right;
-  list-style-type: none;
-  display: flex;
-  font-weight: bold;
-  visibility: hidden;
-}
-#menuBar .menuOption .targetLink {
-  display: flex;
-  flex-direction: column;
-  color: var(--colorTextDark);
-  outline: none;
-  height: 100%;
-  width: 7em;
-  margin: -1em 0;
-  padding: 1em 0 0.65em 0;
-  transition: color 0.15s ease-in, background-color 0.15s ease-in;
-}
-#menuBar .menuOption .targetLink:hover {
-  color: black;
-  background-color: var(--colorPrimaryLight);
-  cursor: pointer;
-}
-#menuBar .menuOption > * {
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  font-size: 1.5em;
-}
-#menuBar .menuOption .fa {
-  padding: 5px;
-  font-size: 1.3em;
-} */
 
 
 /* ========================================================================== */

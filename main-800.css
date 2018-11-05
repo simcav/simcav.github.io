@@ -177,7 +177,7 @@ header::before {
 #menuBar
 {
   position: absolute;
-  width: 100vw;
+  width: 0;
   margin: 28px 0 0 0 ;
   padding: 0;
   
@@ -189,10 +189,11 @@ header::before {
   transform-origin: 100% 0%;
   transform: translate(100%, 0);
   
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), visibility 1s ease-in-out 0s;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), visibility 1s ease-in-out 0s, width 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   display: flex;
   flex-direction: row;
   visibility: hidden;
+  overflow: hidden;
 }
 #menuBar li {
   color: var(--colorTextDark);
@@ -213,6 +214,7 @@ header::before {
 #menuToggle input:checked ~ ul {
   transform: none;
   visibility: visible;
+  width: 100vw;
 }
 
 

@@ -170,6 +170,7 @@ body div code {
   padding: 0;
   background: none;
   border: none;
+  overflow-x: scroll;
 }
 .tableDiv::after {
   content: none;

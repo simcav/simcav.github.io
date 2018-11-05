@@ -112,6 +112,14 @@ header::before {
 #title::after {
   clear: both;
 }
+
+#menuToggle {
+  float: right;
+  height: 100%;
+}
+#menuToggle input {
+  display: none;
+}
 #menuBar {
   height: 100%;
   float: right;

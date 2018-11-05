@@ -317,25 +317,77 @@ header::before {
 /* EXPAND REASONS TO USE */
 /* ========================================================================== */
 .content.col3 {
-  min-height: 350px;
-  max-height: 350px;
+  //min-height: 350px;
+  //max-height: 350px;
   margin-top: 50px;
   overflow: hidden;
 }
 .content.col3 ul {
-  height: 100px;
+  //height: 100px;
+  display: flex;
+  flex-direction: column;
 }
 .content.col3 ul li {
-  padding: 20px;
-  width: 33%;
+  text-align: center;
+  /*width: 33%;
   justify-content: center;
   text-align: center;
   padding-bottom: 0.4em;
   border-bottom: 1px solid black;
-  transition: background-color 0.25s linear;
+  transition: background-color 0.25s linear; */
+}
+.content.col3 ul li span.reasonsTitle {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+  background-color: var(--transparentLight);
+}
+.content.col3 ul li span.reasonsTitle::after {
+  padding-left: 10px;
+  content: ' ';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f078";
+}
+.content.col3 ul li:hover {
+  background-color: var(--transparentLight);
+  cursor: pointer;
+  color: var(--colorTitle);
+}
+.content.col3 ul li div.fill {
+  //display: none;
+  max-height: 0;
+  font-size: 0.8em;
+  transition: max-height 0.25s linear;
+  overflow: hidden;
+}
+.content.col3 ul li:hover div.fill {
+  //display: block;
+  height: auto;
+  max-height: 300px;
+  color: var(--colorText);
+  background: transparent;
+}
+.content.col3 ul li .reasons {
+  padding-bottom: 15px;
+}
+.content.col3 ul li .reasons ul li {
+  text-align: left;
+  padding: 10px;
+}
+.content.col3 ul li .reasons ul li:hover {
+  color: inherit;
+  background: inherit;
+  cursor: default;
+}
+.content.col3 ul li .reasons ul li span {
+  font-weight: bold;
 }
 
-.content.col3 ul li:hover {
+/* .content.col3 ul li:hover {
   color: var(--colorLink);
   background-color: var(--transparentLight);
 }
@@ -352,10 +404,6 @@ header::before {
   max-height: 0px;
   transition: max-height 0.25s linear;
 }
-/* .content.col3 ul li:hover .fill .picture img {
-  max-height: 0px;
-  transition: max-height 0.25s linear;
-} */
 
 .fill {
   position: relative;
@@ -420,7 +468,7 @@ header::before {
   font-weight: bold;
   font-size: 1.1em;
   padding-bottom: 1em;
-}
+} */
 
 /* ========================================================================== */
 /* SEPARATOR */

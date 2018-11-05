@@ -387,88 +387,6 @@ header::before {
   font-weight: bold;
 }
 
-/* .content.col3 ul li:hover {
-  color: var(--colorLink);
-  background-color: var(--transparentLight);
-}
-.content.col3 ul li span {
-  z-index: 2;
-}
-.content.col3 ul li:hover .fill .reasons {
-  height: 400px;
-  max-height: 400px;
-  transition: max-height 0.5s linear;
-  transition-delay: 0.05s;
-}
-.content.col3 ul li:hover .fill .picture {
-  max-height: 0px;
-  transition: max-height 0.25s linear;
-}
-
-.fill {
-  position: relative;
-  left: 0;
-  height: 250px;
-  width: 100%;
-  text-align: left;
-  z-index: 10;
-  padding-top: 40px;
-  font-size: 0.9em;
-}
-
-.fill .picture {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 250px;
-  width: 100%;
-  max-height: 100%;
-  background: url("laser1.png") 0 0 no-repeat;
-  background-size: 100vw;
-  transition: max-height 0.25s linear;
-  transition-delay: 0.2s;
-  overflow: hidden;
-}
-.fill .picture.one {
-  background-position: -5vw center;
-}
-.fill .picture.two {
-  background-position: -33vw center;
-}
-.fill .picture.three {
-  background-position: -63vw center;
-}
-
-.reasons {
-  position: absolute;
-  top: 0;
-  padding-top: 40px;
-  font-size: 0.8em;
-  display: block;
-  height: 250px;
-  max-height: 0;
-  transition: max-height 0.4s linear;
-  overflow: hidden;
-}
-.reasons ul {
-  display: fex;
-  flex-direction: column;
-}
-.content.col3 .reasons ul li {
-  width: 100%;
-  text-align: left;
-  border: none;
-  color: white;
-  padding: 0 0 1.5em 0;
-}
-.content.col3 .reasons ul li:hover {
-  background: transparent;
-}
-.content.col3 .reasons ul li span {
-  font-weight: bold;
-  font-size: 1.1em;
-  padding-bottom: 1em;
-} */
 
 /* ========================================================================== */
 /* SEPARATOR */
@@ -494,8 +412,6 @@ header::before {
   padding: 3px;
   z-index: -1;
   filter: blur(2px);
-  //box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  //transition: box-shadow:
 }
 .separator::after {
   content: '';
@@ -531,7 +447,6 @@ header::before {
   padding: 10px;
   border: 1px solid black;
   border-radius: 2px;
-  //box-shadow: 0px 13px 16px -13px rgba(0,0,0,0.64);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: var(--colorSeparator);
   z-index: 5;
@@ -541,13 +456,12 @@ header::before {
 /* DOWNLOADS */
 /* ========================================================================== */
 .content.col4 {
-  //min-height: 350px;
   height: auto;
+  font-size: 1.5em;
 }
 .content.col4 ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  //grid-gap: 10px;
 }
 .content.col4 ul li {
   margin: 0 auto;
@@ -596,19 +510,23 @@ header::before {
   padding: 0.5em 0;
 }
 #postDownloads li {
-  background: transparent;
   width: 30%;
   margin: 0 auto;
+}
+#postDownloads li a {
+  height: 80%;
+  padding: 0.5em;
   display: flex;
   flex-direction: column;
   flex-grow: bottom;
 }
-#postDownloads p {
-  margin-bottom: 0.5em;
+#postDownloads li a p {
+  margin-bottom: 0.8em;
 }
-#postDownloads i {
+#postDownloads ul li a i {
   font-size: 2em;
   margin-top: auto;
+  color: var(--colorText);
 }
 
 /* ========================================================================== */

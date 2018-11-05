@@ -518,6 +518,12 @@ header::before {
   margin: 1em auto;
   width: 40%;
 }
+.content.col .aboutTitle {
+  font-weight:bold;
+}
+.content.col .aboutText {
+  font-size:0.8em;
+}
 .content.col h5 {
   font-size:0.9em;
   font-weight: normal;

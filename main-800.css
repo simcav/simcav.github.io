@@ -553,6 +553,9 @@ header::before {
   flex-direction: column;
   flex-grow: bottom;
 }
+#postDownloads p {
+  margin-bottom: 0.5em;
+}
 #postDownloads i {
   font-size: 2em;
   margin-top: auto;

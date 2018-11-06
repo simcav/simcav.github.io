@@ -501,6 +501,13 @@ header::before {
 #postDownloads li {
   padding: 10px 0;
 }
+#postDownloads li a {
+  height: 80%;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  flex-grow: bottom;
+}
 #postDownloads li a p {
   margin-bottom: 0.5em;
 }

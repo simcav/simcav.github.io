@@ -22,23 +22,26 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   
   <!-- ===================================================================== -->
-  <!-- Matomo analytics -->
+  <!-- Analytics -->
   <!-- ===================================================================== -->
-  <!-- Matomo -->
+  <!-- Start Open Web Analytics Tracker -->
   <script type="text/javascript">
-    var _paq = _paq || [];
-    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="//simcav.eu5.org/piwik/";
-      _paq.push(['setTrackerUrl', u+'piwik.php']);
-      _paq.push(['setSiteId', '1']);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
+  //<![CDATA[
+  var owa_baseUrl = 'http://scstats.rf.gd/owa/';
+  var owa_cmds = owa_cmds || [];
+  owa_cmds.push(['setSiteId', 'c71619a86e92665eb9d745446c93056e']);
+  owa_cmds.push(['trackPageView']);
+  owa_cmds.push(['trackClicks']);
+
+  (function() {
+  	var _owa = document.createElement('script'); _owa.type = 'text/javascript'; _owa.async = true;
+  	owa_baseUrl = ('https:' == document.location.protocol ? window.owa_baseSecUrl || owa_baseUrl.replace(/http:/, 'https:') : owa_baseUrl );
+  	_owa.src = owa_baseUrl + 'modules/base/js/owa.tracker-combined-min.js';
+  	var _owa_s = document.getElementsByTagName('script')[0]; _owa_s.parentNode.insertBefore(_owa, _owa_s);
+  }());
+  //]]>
   </script>
-  <!-- End Matomo Code -->
+  <!-- End Open Web Analytics Code -->
 </head>
 
 <body>

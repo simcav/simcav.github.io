@@ -653,3 +653,24 @@ header::before {
     border-style: solid;
     border-color: transparent transparent black transparent;
 }
+
+#optout {
+  border: 0;
+  height: auto;
+  width: 50%;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(0,0,0,0.9);
+  font-size: 1.2em;
+  padding: 5px;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
+
+#privacy {
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding: 5px;
+  background: var(--transparentLight);
+}

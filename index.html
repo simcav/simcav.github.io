@@ -25,12 +25,21 @@
   <!-- ===================================================================== -->
   <!-- Analytics -->
   <!-- ===================================================================== -->
+  <script type="text/javascript">
+  if (typeof(Storage) !== 'undefined') {
+  	if (localStorage.getItem('matomoTrackingEnabled') === null) {
+  		localStorage.setItem('matomoTrackingEnabled', 'true');
+  	}
+  }
+  </script>
   <!-- Matomo -->
   <script type="text/javascript">
+  if (localStorage.getItem('matomoTrackingEnabled') !== 'false') {
     var _paq = _paq || [];
+    _paq.push(['disableCookies']);
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
     // require user consent before processing data
-    _paq.push(['requireConsent']);
+    //_paq.push(['requireConsent']);
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
@@ -40,6 +49,7 @@
       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
       g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
+  }
   </script>
   <!-- End Matomo Code -->
 </head>
@@ -292,6 +302,21 @@
       </li>
     </ul>
   </div>
+  
+  <!-- <iframe id="optout"
+        src="https://data.simcav.org/matomo/index.php?module=CoreAdminHome&action=optOut&language=en&fontColor=ffffff"
+        ></iframe> -->
+  <div id="optout">
+    <p class="matomo-optout" lang="en">
+    <span class="js" style="display:none;">
+        <input type="checkbox" name="matomo-optout" id="matomo-optout-en" checked>
+        <label for="matomo-optout-en"></label>
+    </span>
+    <span class="nojs">It appears you have deactived JavaScript in your browser. This feature is only available with JavaScript turned on. If you don’t want your data to be collected, you can still turn on <em>Do Not Track</em> in your browser which is a general setting and is being respected by our Matomo installation.</span>
+    </p>
+  </div>
+        
+  <div id="privacy">SimCav does not collect personally identifiable information. Your IP is anonymized by removing the last 2 bytes (eg. 192.168.xxx.xxx). <a href="#">More information</a>.</div>
     
 </body>
 </html>

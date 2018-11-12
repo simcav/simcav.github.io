@@ -303,19 +303,20 @@
     </ul>
   </div>
   
-  <!-- <iframe id="optout"
-        src="https://data.simcav.org/matomo/index.php?module=CoreAdminHome&action=optOut&language=en&fontColor=ffffff"
-        ></iframe> -->
-  <div id="optout">
-    <p class="matomo-optout" lang="en">
-    <span class="js" style="display:none;">
-        <input type="checkbox" name="matomo-optout" id="matomo-optout-en" checked>
-        <label for="matomo-optout-en"></label>
-    </span>
-    <span class="nojs">It appears you have deactived JavaScript in your browser. This feature is only available with JavaScript turned on. If you don’t want your data to be collected, you can still turn on <em>Do Not Track</em> in your browser which is a general setting and is being respected by our Matomo installation.</span>
-    </p>
+  <div id="optoutParent">
+    <a href="javascript:closeFrame();" title="Close notice">X</a>
+    <iframe id="optout"
+          src="https://data.simcav.org/matomo/index.php?module=CoreAdminHome&action=optOut&language=en&fontColor=ffffff"
+          ></iframe>
+    <!-- javascript to close div -->
+    <script type="text/javascript">
+    function closeFrame() {
+        document.getElementById("optoutParent").style.display="none";
+    }
+    </script>
   </div>
-        
+  
+  
   <div id="privacy">SimCav does not collect personally identifiable information. Your IP is anonymized by removing the last 2 bytes (eg. 192.168.xxx.xxx). <a href="#">More information</a>.</div>
     
 </body>

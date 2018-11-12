@@ -188,3 +188,14 @@ body div code {
   color: var(--colorText);
   border-radius: 10px;
 }
+
+#optout {
+  border: 0;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  color: black;
+  background: transparent;
+  padding: 0 0 0 10px;
+  margin: 0;
+}

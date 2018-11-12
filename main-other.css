@@ -95,7 +95,7 @@ body div {
   margin: 50px auto;
   padding: 1em 2em;
   width: 70%;
-  font-size: 2em;
+  font-size: 1.8em;
   color: var(--colorTextDark);
   background-color: var(--transparentLight);
   border: 1px solid black;
@@ -185,4 +185,15 @@ body div code {
   background-color: var(--transparentDark);
   color: var(--colorText);
   border-radius: 10px;
+}
+
+#optout {
+  border: 0;
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  color: black;
+  background: transparent;
+  padding: 0 0 0 10px;
+  margin: 0;
 }

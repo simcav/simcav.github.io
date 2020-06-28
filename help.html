@@ -72,6 +72,16 @@
       <p>
         An installer is provided for Linux and Windows from version 4.8.3. It downloads SimCav files from GitLab repository (master branch). All the files are saved in a folder called SimCav in the user directory. Uninstall is as easy as deleting this folder. Shortcuts in the desktop and in the start menu are also created.
       </p>
+
+      <h3>Ubuntu and similar</h3>
+
+      <p>
+        SimCav may not appear in the applications menu. Go to '.local/share/applications' and open 'SimCav.desktop with a text editor. Substitute 'python' with 'python3'. Save, close and give the file execution rights.
+      </p>
+
+      <p>
+        If a file called 'SimCav.desktop' appears on the desktop, instead of a launcher, simply right-click on it and choose 'allow launching'. You may need to open it with a text editor and substitute 'python' with 'python3'.
+      </p>
       
       <h2>Requeriments</h2>
       
@@ -79,12 +89,12 @@
         Python 3 and pip are both required for the installer to work. This makes SimCav installation truly lightweight (under 10 MB). Other required modules will be installed in the user environment using pip. 
         <a href="https://wiki.python.org/moin/BeginnersGuide/Download">How to install python</a>.
       </p>
-      <p>Current required external modules:
+      <p>Current required external modules for installation (automatically installed by the installer):
         <ul>
           <li>numpy</li>
           <li>matplotlib (>2.2)</li>
           <li>requests</li>
-          <li>winshell (only for Windows' installer)</li>
+          <li>winshell (only for Windows)</li>
         </ul>
       </p>
       
